@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,9 @@
                 <img src="/img/logo-header.png" class="logo-header" alt="All white logo">
                 <nav>
                     <ul>
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <img src="/img/bar-menu.png" class="menu" alt="">
@@ -34,7 +34,7 @@
            
             Albert Einstein.</p>
     </div>
-    <div class="who-i-am">
+    <div id="about-me" class="who-i-am">
         <div class="wia-info"><h1 class="wia-title">Who I Am?</h1>
         <p class="wia-text"> I am an undergraduated professional in International Relations. After my graduation I was determined to 
             enroll in a graduate program and I did it. I was admitted to a master about International Cooperation for the Development, 
@@ -45,7 +45,7 @@
             in the topics and felt so passionate about it but I had a problem, there were moments when I would not understand something 
             and would stay stuck there. <br><br>
 
-            With this passion just discovered I decided to get into Full-Stack web developer bootcamp and after some really hard 
+            With this passion just discovered I decided to get into a Full-Stack web developer bootcamp and after some really hard 
             and intense months I got to finish it adquiring the skills demanded by the market to be a high value professional.
             
             </p>
@@ -56,8 +56,8 @@
         </div>
 
     </div>   
-    <div class="portfolio">
-        <div class="por-info">
+    <div id="portfolio" class="portfolio">
+        <div class="port-info">
             <h1 class="port-title">Portfolio</h1>
             <p class="port-text">Here are some of the works that I have done:</p>
         </div>
@@ -67,12 +67,51 @@
         <div class="circle-red">
             <img src="/img/circle-3.png" alt="">
         </div>
-        
-
+        <div class="projects">
+        <div class="col1">
+            <a class="link-tetris" href="https://mariasuescum.github.io/tetris/"><img  class="link-tetris" src="/img/tetris.PNG" alt=""></a>
+            <img src="/img/coming-soon.png" alt="">
+            <img src="/img/coming-soon.png" alt="">
+        </div>
+        <div class="col2">
+            <img src="/img/coming-soon.png" alt="">
+            <img src="/img/coming-soon.png" alt="">
+            <img src="/img/coming-soon.png" alt="">
+        </div>
+        </div>
     </div>
-    <div class="footer">
-
+    <div id="contact" class="contact">
+        <div class="cont-text">
+            <h1>Contact</h1>
+            <p>Want to work together? Leave your info in the next form and I will get in contact with you.</p>
+        </div>
+        <div class="contact-form">
+            <h2 class="form-title">Let me contact you!</h2>
+            <form action="https://formsubmit.co/webdev.cleon@gmail.com" id="form" method="post">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" class="submit" value="Submit">
+            </form>
+        </div>
     </div>
+    <footer>
+        <div class="footer-logo">
+            <img class="foot-logo" src="/img/logo-footer.png" alt="">
+        </div>
+        <div class="footer-text">
+            <p>Website designed and made by me: <span style="color:#E02828;">Cristian León</span> </p>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/cleon98"><img class="git-hub" src="./img/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/cristian-david-leon-hernandez-582bb31a8/"><img class="linkedin" src="./img/linkedin.png" alt=""></a>
+            <a href="mailto:webdev.cleon@gmail.com"><img class="logo-email" src="./img/email.png" alt=""></a>
+
+        </div>
+    </footer>
     </div>
     <script src="script.js"></script>
 </body>

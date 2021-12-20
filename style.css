@@ -3,7 +3,9 @@
     padding: 0;
     font-family: roboto;
 }
-
+body{
+    background-color: #f6e8ea;
+}
 header{
    
     width: 100%;
@@ -19,7 +21,7 @@ header{
 }
 
 .logo-header{
-    width: 80px;
+    width: 90px;
     margin: 30px 50px;
 }
 .menu{
@@ -45,7 +47,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #E02828
+    color: #E02828;
+    transition: 0.6s;
 }
 #banner{
     background-image: url(/img/banner-bckg.png);
@@ -119,8 +122,9 @@ nav ul li a:hover{
 }
 
 .portfolio{
-    margin-top: 50px;
+    margin: 100px 0px 80px 0px;
     display: flex;
+    flex-direction: column;
 }
 
 .port-title{
@@ -129,6 +133,122 @@ nav ul li a:hover{
 }
 
 .port-text{
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 60px;
+    padding-bottom: 50px;
+}
+.circle-gray{
+    position: relative;
+    z-index: 0;
+}
+.circle-red{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 0;
+    margin-top: 240px;
+}
+
+.projects{
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+
+.col1, .col2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.link-tetris{
+    width: 400px;
+    height: 335.31px;
+}
+.cont-text h1{
+    font-size:70px;
+    padding-left: 60px;
+}
+.cont-text p{
+    font-size: 25px;
+    padding-left: 60px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin: 10vh 15vh;
+    padding: 30px;
+    border: none;
+    box-shadow: 0 0 15px;
+    background: #302E2E;
+}
+.form-title{
+    color: #fff;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+}   
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    font-size: 20px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+    background:#E5E5E5;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+.submit{
+    cursor: pointer;
+    width: 120px;
+    color: #DF3C3C;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #DF3C3C;
+    color: #fff;
+    transition: 0.5s;
+}
+
+footer{
+   background-color: #302E2E;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.foot-logo{
+    width: 150px;
+    padding-top: 40px;
+}
+.footer-text{
+    font-size: 30px; 
+    color: #fff;
+}
+
+.git-hub, .linkedin, .logo-email{
+    width: 80px;
+    padding: 0px;
+    margin:  80px 150px 50px 150px;
 }
