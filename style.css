@@ -3,3 +3,132 @@
     padding: 0;
     font-family: roboto;
 }
+
+header{
+   
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.top{    
+    background-color: #302E2E;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+
+}
+
+.logo-header{
+    width: 80px;
+    margin: 30px 50px;
+}
+.menu{
+    width: 25px;
+    margin-right: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #E02828
+}
+#banner{
+    background-image: url(/img/banner-bckg.png);
+    height: 50vh;
+    background-color: #302E2E;
+    background-size: contain;
+    background-position: bottom;
+}
+.content-banner{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.content-banner h3{
+    font-size:80px;
+
+}
+.name{
+    font-size: 50px;
+}
+
+.banner-2{
+    flex-direction: column;
+    display: flex;
+    align-items: center
+}
+
+.quote-banner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.who-i-am{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    align-items: flex-start;
+    position: relative;
+
+}
+.wia-info{
+    background-color: #302E2E;
+    margin: 10px 50px;
+    position: absolute;
+
+}
+.wia-title{
+    color:#E02828;
+    font-size: 70px;
+    padding: 50px 30px 0px 30px;
+}
+
+.wia-text{
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 30px;
+    text-align: justify;
+    width:55%;
+    height: 560px; 
+    line-height: 1.8; 
+}
+.imgs{
+    padding-top: 50px;
+    z-index: 5;
+}
+
+.portfolio{
+    margin-top: 50px;
+    display: flex;
+}
+
+.port-title{
+    font-size: 70px;
+    padding-left: 60px;
+}
+
+.port-text{
+    font-size: 20px;
+    padding-left: 60px;
+}
