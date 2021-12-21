@@ -27,6 +27,7 @@ header{
 .menu{
     width: 25px;
     margin-right: 10px;
+    display: none;
 }
 nav{
     flex: 1;
@@ -251,4 +252,31 @@ footer{
     width: 80px;
     padding: 0px;
     margin:  80px 150px 50px 150px;
+}
+
+@media (max-width:768px){
+    nav ul{
+        width: 100%;
+        background:#000;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu{
+        display: block;
+    }
+    #menu-lis{
+        overflow: hidden;
+        transition: 0.5s;
+    }
 }
