@@ -70,9 +70,7 @@ nav ul li a:hover{
     font-size:80px;
 
 }
-.name{
-    font-size: 50px;
-}
+
 
 .banner-2{
     flex-direction: column;
@@ -254,29 +252,53 @@ footer{
     margin:  80px 150px 50px 150px;
 }
 
-@media (max-width:768px){
-    nav ul{
-        width: 100%;
-        background:#000;
-        position: absolute;
-        top: 75px;
-        right: 0;
-        z-index: 2;
-    }
+@media only screen and (max-width: 700px){
+.logo-header{
+    margin: 30px 10px;
+    width: 80px;
+}
+#menu-list{
+    display: none;
+}
+.content-banner h3{
+    font-size:50px;
 
-    nav ul li{
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav ul li a{
-        color: #fff;
-    }
-    .menu{
-        display: block;
-    }
-    #menu-lis{
-        overflow: hidden;
-        transition: 0.5s;
-    }
+}
+#banner{
+    background-size:cover;
+    height: 10em;
+}
+.banner-2{
+    font-size: 16px;
+
+}
+.quote-banner{
+    font-size: 25px;
+    font-weight: 650;
+    font-style: italic;
+    padding: 50px 15px 50px 15px;
+    width: 90%;
+}    
+#about-me{
+    height: 700px;
+}
+
+.wia-title{
+    font-size: 45px;
+    width: 100%;
+}
+.wia-text{
+    font-size: 12px;
+    width: 80%;
+    line-height: normal;
+    z-index: 2;
+    padding: 30px 30px;
+}
+
+.picture{
+    width: 130px;
+    left: 195px;
+    top: 520px;
+    position: absolute;
+}
 }
