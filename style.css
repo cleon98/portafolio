@@ -287,6 +287,8 @@ footer{
 }    
 #about-me{
     height: 740px;
+    width: auto;
+    position: static;
 }
 
 .wia-title{
@@ -300,12 +302,15 @@ footer{
     z-index: 2;
     padding: 30px 30px;
 }
-
+.imgs{
+    display: none;
+}
 .picture{
     width: 130px;
     left: 196px;
-    top: 520px;
+    top: 1100px;
     position: absolute;
+
 }
 #portfolio{
     margin: 0;
