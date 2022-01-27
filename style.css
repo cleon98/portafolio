@@ -253,7 +253,10 @@ footer{
 }
 
 @media only screen and (max-width: 700px){
-.logo-header{
+*{
+    overflow-x: hidden;
+}
+    .logo-header{
     margin: 30px 10px;
     width: 80px;
 }
@@ -303,9 +306,11 @@ footer{
 }
 #portfolio{
     margin: 0;
+    width: auto;
+    height: 800px;
 }
 .port-info{
-    height: 1000px;
+    height: auto;
 }
 .port-title{
     font-size: 40px;
@@ -321,32 +326,47 @@ footer{
 .projects{
 
     margin-top: 160px;
+}
 
-}
-.col1{
-    width: 100px;
-}
-.col1{
-    width: 100px;
-}
 .gray-circle, .red-circle{
     width: 150px;
     position: absolute;
 }
 .red-circle{
-    top: 2300px;
+    top: 1800px;
 
 }
 .gray-circle{
-    bottom: 1050px;
+    top: 1500px;
 
 }
-.square{
+.square, .link-tetris{
     height: 150px;
     width: 150px;
 }
 .link-tetris1{
     width: 150px;
     height: 150px;
+}
+.col1{
+    padding-left: 30px;
+}
+.col1, .col2{
+    width: auto;
+    height: auto;
+}
+.cont-text h1{
+    font-size: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.cont-text p{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.contact-form{
+    width: 70%;
+    margin: 40px 25px 120px 25px;
 }
 }
