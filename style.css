@@ -290,7 +290,12 @@ footer{
     width: auto;
     position: static;
 }
-
+.wia-info{
+    height: 730px;
+    overflow: hidden;
+    margin: 0;
+    right: 50px;
+}
 .wia-title{
     font-size: 45px;
     width: 100%;
@@ -301,6 +306,7 @@ footer{
     line-height: normal;
     z-index: 2;
     padding: 30px 30px;
+    position: absolute;
 }
 
 .picture{
